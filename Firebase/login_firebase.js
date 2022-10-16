@@ -13,7 +13,7 @@
         messagingSenderId: "518600901873",
         appId: "1:518600901873:web:e48a843dbf9e6251545550",
         measurementId: "G-V0FPK7FDBK",
-      };
+      };//get this from firebase
 
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
