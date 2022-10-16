@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
                 <input type="email" placeholder="Email" name="email" value="<?php echo $email; ?>" required>
             </div>
             <div class="input-group">
-                <input type="password" placeholder="Password" name="password" value="<?php echo $_POST['password']; ?>" required>
+                <input type="password" placeholder="Password" name="password" value="<?php echo $password; ?>" required>
             </div>
             <div class="input-group">
                 <button name="submit" class="btn">Login</button>
